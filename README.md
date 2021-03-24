@@ -1,9 +1,12 @@
 # Smart OnAir Sign
+![Front Picture](Immages/Front1.jpg)
+![Rear Picture](Immages/Rear.jpg)
+
 Do you know this issue, you are in a remote meeting and suddenly your roommate/significant other walks in and wants to talk to you?
 I certainly do, thats why I designed this WiFi enabled on-air sign because I couldn't find one I liked.
 
 The device operates rather simply: 
-A web server runs on a Wemos D1 mini which hosts an mDNS enabled webserver with can be easially reached with the URL http://onairsign.local/. 
+A web server runs on a Wemos D1 mini which hosts an mDNS enabled webserver with can be easily reached with the URL http://onairsign.local/. 
 In order to manipulate the color the device displays the URL http://onairsign.local/color can be used with the following parameters:
 
 | Parameter | Description                              | Example                              |
@@ -34,4 +37,25 @@ http://onairsign.local/color?r=255&g=0&b=0&lum=255&s=1
 - *1 x* **3D printed bottom shell**
 - *1 x* **3D printed light diffuser or sheet of paper** (optional)
 
+## Printing instructions
+
 ## Assembly
+### Step 1
+Glue the diffuser in place, I used some Bostik superglue, but any glue that sticks to your material of choice will do. 
+The diffuser may need some trimming in the corner.
+
+### Step 2
+Cut the LED strip into 3 or 4 pieces, connect them with some short wires (1 - 1.5cm or about 1/2"). 
+![Step 2 - immage](Immages/Step2.jpg)
+
+### Step 3
+
+
+
+## BOM Reference Pictures
+- LOLIN D1 Mini
+![Wemos D1 mini](Immages/AliExpress1.png)
+- ARGB LED Strip
+![ARGB LED strip](Immages/AliExpress2.png)
+- M3 Screws
+![M3 Screws](Immages/AliExpress3.png)
