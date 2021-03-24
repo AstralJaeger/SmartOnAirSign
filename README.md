@@ -41,10 +41,13 @@ http://onairsign.local/color?r=255&g=0&b=0&lum=255&s=1
 
 ## Printing instructions
 ### Top shell
-Avoid using a brim, turn the flat side with the text to the bottom.
+Avoid using a brim, turn the flat side with the text to the bottom. Do NOT drill out the screw holes, the screws should tap into this side.
 
 ### Diffuser
-Print using 0.16mm layer height, this way it will end up being 2 layers
+Print using 0.16 mm layer height, this way it will end up being 2 layers, print it in white filament. If you don't have white filament at hand, just cut out a sheet of paper or omit the whole thing, it just prevents you from seeing the electronics.
+
+### Bottom shell
+No brim should be necessary, if used, you'll have to clear out the screw holes. May need to drill out the screw holes, these are just through-holes on this side.
 
 ## Assembly
 ### Step 1
@@ -88,6 +91,11 @@ Now when your LED's light up, you can close the case and enjoy your new On Air s
 ![ARGB LED strip](Images/AliExpress2.png)
 - M3 Screws
 ![M3 Screws](Images/AliExpress3.png)
+
+## Planned updates
+- Python program to monitor Discord, Zoom and Twitch for activity and enable the sign automatically
+- Bottom shell with various mounting options
+- RaspberryPi Zero instead of ESP
 
 ## Updates
 24.03.2021 - Create first version
